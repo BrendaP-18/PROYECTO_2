@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins';
+}
+
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.encabezado {
+    background-image: url('https://geekflare.com/es/wp-content/uploads/sites/24/2022/07/email-testing.png');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.encabezado h1{
+    font-size: 70px;
+    padding: 20px 0;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #eBAD8D;
+}
+
+.contenido{
+    display: flex;
+}
+.contenido-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+.contenido-2{
+    background-image: url('https://cdn-3.expansion.mx/dims4/default/d556614/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F77%2F22%2Fe1f13fd34b33a684a309ac347476%2Fistock-1390432414.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenido-3{
+    background-image: url('https://fotografias.larazon.es/clipping/cmsimages01/2023/09/15/FDD0507B-2D33-4C54-B3B5-7E5AB71A64D8/poca-gente-conoce-verdadero-origen-email_98.jpg?crop=1000,563,x0,y29&width=1900&height=1069&optimize=low&format=webply');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+
