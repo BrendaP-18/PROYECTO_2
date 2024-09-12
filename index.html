@@ -7,18 +7,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Contacto</a>
-        </nav>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>
+                        <a href="tiposdecorreo.html">Tipos de correo electrónico</a>
+                        <ul class="vertical">
+                            <li><a href="#">Partes de un correo electrónico</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Ventajas</a>
+                        <ul class="vertical">
+                            <li><a href="#">Desventajas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Direccion de correo electrónico</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="encabezado container">
+            <h1>Correo Electronico</h1>
+        </div>
     </header>
- 
-    <div class="encabezado">
-        <h1>Correo Electronico</h1>
-    </div>
 
     <section class="contenido">
         <div class="contenido-1">
@@ -31,7 +50,6 @@
                 a través de Internet a través de clientes de correo electrónico basados en la web (como Gmail), 
                 han ampliado las formas modernas de correo electrónico. 
             </p>
-            <a href="#" class="btn-1">información</a>
         </div>
         <div class="contenido-2"></div>
     
@@ -40,9 +58,45 @@
     <section class="contenido">
         <div class="contenido-3"></div>
         <div class="contenido-1">
-            <h2>Tipos de correo electrónico</h2>
-            <a href="#" class="btn-1">información</a>
+            <h2>Funcionamiento</h2>
+            <p>
+                El término "clientes" de correo electrónico se refiere a los programas de software y 
+                navegadores web que utilizan para enviar mensajes de correo electrónico.
+                <ul>
+                    <li>El agente de transferencia de correo (MTA), también conocido como servidor de correo 
+                        del remitente, inicia una conexión con el protocolo simple de transferencia de correo (SMTP).</li>
+                    <li>SMTP busca la dirección de correo electrónico del destinatario y traduce el nombre de 
+                        dominio en una dirección IP después de analizar los datos del sobre del correo electrónico</li>
+                    <li>Con el nombre de dominio del destinatario, SMTP busca un servidor de intercambio de correo 
+                        (MX). </li>
+                </ul> 
+
+            </p>
         </div>
     </section>
+
+    <section class="subtemas-container">
+        <div class="subtemas-conte">
+            <div class="subtemas-1">
+                <img src="https://www.redeszone.net/app/uploads-redeszone.net/2018/07/mejores-opciones-correo-electronico.jpg" alt="">
+                <h3>Tipos de correo electrónico</h3>
+                <a href="tiposdecorreo.html" class="btn-1">información</a>
+            </div>
+            <div class="subtemas-1">
+                <img src="https://www.deepcompany.com/wp-content/uploads/2018/10/e-mail-marketing-2745489_1280-1170x650.jpg" alt="">
+                <h3>Ventajas</h3>
+                <a href="#" class="btn-1">información</a>
+            </div>
+            <div class="subtemas-1">
+                <img src="https://imgmedia.larepublica.pe/640x371/larepublica/original/2021/08/09/6111c64670da036af07744f8.webp" alt="">
+                <h3>Dirección de correo electrónico</h3>
+                <a href="#" class="btn-1">información</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div id="contenido">
+        <iframe width="747" height="560" src="https://www.youtube.com/embed/-3-UtP0NaM0" title="¿Qué es el Correo Electrónico - Origen, historia y aplicaciones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
