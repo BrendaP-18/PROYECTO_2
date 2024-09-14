@@ -16,7 +16,37 @@ body{
 }
 
 .header{
-    background-image:linear-gradient(rgba(116, 112, 112, 0.7), rgba(0,0,0,0.7)), url('https://impulso06.com/wp-content/uploads/2023/09/El-Poder-del-Correo-Electronico-en-la-Busqueda-de-Empleo.png');
+    background-image:linear-gradient(rgba(158, 154, 154, 0.7), rgba(74, 69, 69, 0.7)), url('https://geekflare.com/cdn-cgi/image/width=1200,height=385,fit=crop,quality=90,format=auto,onerror=redirect,metadata=none/wp-content/uploads/sites/24/2022/07/email-testing.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header1{
+    background-image:linear-gradient(rgba(116, 112, 112, 0.7), rgba(0,0,0,0.7)), url('https://canarymail.io/blog/wp-content/uploads/2023/11/android-email-apps.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header2{
+    background-image:linear-gradient(rgba(116, 112, 112, 0.7), rgba(0,0,0,0.7)), url('https://cdn.prod.website-files.com/5fe49c83da21600153ec9e75/610c149c71f0f8c4220e760f_5ff6e1d3650715d61d368bf1_stephen-phillips-hostreviews-co-uk-3Mhgvrk4tjM-unsplash-p-2600.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header5{
+    background-image:linear-gradient(rgba(116, 112, 112, 0.616), rgba(0,0,0,0.7)), url('https://readwrite.com/wp-content/uploads/Why-i-choose-email-marketing.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +121,19 @@ body{
     text-align: center;
 }
 
+.encabezado1{
+    text-align: center;
+}
+
 .encabezado h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.encabezado1 h1{
     font-size: 75px;
     line-height: 80px;
     color: #F9FAFC;
@@ -120,6 +162,20 @@ body{
     padding: 100px 250px 100px 100px;
     background-color: #E1E2E6;
 }
+
+.contenido-1-1{
+    width: 70%;
+    padding: 100px 140px 40px 90px;
+    background-color: #fff;
+    
+}
+
+.contenido-1-2{
+    width: 50%;
+    padding: 100px 240px 100px 100px;
+    background-color: #fff;
+}
+
 .contenido-2{
     background-image: url('https://cdn-3.expansion.mx/dims4/default/d556614/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F77%2F22%2Fe1f13fd34b33a684a309ac347476%2Fistock-1390432414.jpg');
     background-position: center center;
@@ -129,6 +185,30 @@ body{
 }
 .contenido-3{
     background-image: url('https://fotografias.larazon.es/clipping/cmsimages01/2023/09/15/FDD0507B-2D33-4C54-B3B5-7E5AB71A64D8/poca-gente-conoce-verdadero-origen-email_98.jpg?crop=1000,563,x0,y29&width=1900&height=1069&optimize=low&format=webply');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.contenido-4{
+    background-image: url('https://emprendepyme.net/wp-content/uploads/2023/03/correo-electronico-para-empresas.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.contenido-5{
+    background-image: url('https://www-static.cdn-one.com/cmsimages/en_119-what-is-an-email-suffix-05-2x.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.contenido-6{
+    background-image: url('https://www.godaddy.com/resources/latam/wp-content/uploads/GoDaddy-corre.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,4 +257,45 @@ p{
     background-color: #E1E2E6;
     height: 560px;
     text-align: center;
+}
+
+.parrafo{
+    font-size: 17px;
+    color: #000;
+    padding: 0 200px;
+    margin-bottom: 25px;
+}
+
+.tabla{
+    padding: 100px 70px ;
+    text-align: center;
+    background-color: #E1E2E6;
+    display: flex; 
+}
+
+.tabla h3{
+    font-size: 25px;
+    color: #323337;
+}
+
+.tabla img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.tabla1{
+    padding: 90px 70px ;
+    text-align: center;
+    background-color: #fff;
+    display: flex; 
+}
+
+.tabla1 h3{
+    font-size: 25px;
+    color: #323337;
+}
+
+.tabla1 img{
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
