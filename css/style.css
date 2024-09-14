@@ -45,6 +45,26 @@ body{
     align-items: center;
 }
 
+.header3{
+    background-image:linear-gradient(rgba(116, 112, 112, 0.7), rgba(0,0,0,0.7)), url('https://st4.depositphotos.com/12985790/23185/i/450/depositphotos_231857118-stock-photo-cropped-view-businesswoman-typing-laptop.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header4{
+    background-image:linear-gradient(rgba(116, 112, 112, 0.7), rgba(0,0,0,0.7)), url('https://sell.emprendepyme.net/wp-content/uploads/2018/06/elementos-del-marketing-automation.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
 .header5{
     background-image:linear-gradient(rgba(116, 112, 112, 0.616), rgba(0,0,0,0.7)), url('https://readwrite.com/wp-content/uploads/Why-i-choose-email-marketing.png');
     background-position: center center;
@@ -87,6 +107,7 @@ body{
 .menu .navbar ul li a:hover{
     color: #81bebe;
 }
+
 .vertical{
     position: absolute;
     display: none;
@@ -102,19 +123,6 @@ body{
 .vertical li a{
     display: block;
     padding: 15px 15px 15px 20px;
-}
-
-#menu{
-    display: none;
-}
-
-.menu-icono{
-    width: 25px;
-}
-
-.menu label{
-    cursor: pointer;
-    display: none;
 }
 
 .encabezado{
@@ -243,7 +251,7 @@ p{
 }
 
 .subtemas-1 img{
-    width: 250px;
+    width: 350px;
     border-radius: 15px;
     margin-bottom: 15px;
 }
@@ -269,7 +277,7 @@ p{
 .tabla{
     padding: 100px 70px ;
     text-align: center;
-    background-color: #E1E2E6;
+    background-color: #fff;
     display: flex; 
 }
 
@@ -284,9 +292,8 @@ p{
 }
 
 .tabla1{
-    padding: 90px 70px ;
-    text-align: center;
-    background-color: #fff;
+    padding: 100px 150px ;
+    background-color: #E1E2E6;
     display: flex; 
 }
 
@@ -298,4 +305,56 @@ p{
 .tabla1 img{
     border-radius: 15px;
     margin-bottom: 15px;
+    margin-left: 70px;
+}
+
+.tabla2{
+    padding: 100px 150px ;
+    background-color: #E1E2E6;
+    display: flex; 
+}
+
+.tabla2 h3{
+    font-size: 25px;
+    color: #323337;
+}
+
+.tabla2 img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+
+.tabla3{
+    padding: 100px 100px ;
+    background-color: #E1E2E6;
+    display: flex; 
+}
+
+.tabla3 h3{
+    font-size: 25px;
+    color: #323337;
+}
+
+.tabla3 img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.tabla4{
+    padding: 100px 100px ;
+    background-color: #fff;
+    display: flex; 
+}
+
+.tabla4 h3{
+    font-size: 25px;
+    color: #323337;
+}
+
+.tabla4 img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
 }
